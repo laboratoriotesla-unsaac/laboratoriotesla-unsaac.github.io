@@ -3,65 +3,176 @@ layout: default
 title: Laboratorio TESLA - UNSAAC
 ---
 
-<section id="home">
-  <h2>Bienvenido al Laboratorio TESLA - UNSAAC</h2>
-  <p>
-    El Laboratorio <strong>TESLA</strong> (Tecnología en Energías Renovables, Ingeniería de Comunicaciones Ópticas y Tecnología Medioambiental) de la 
-    <a href="https://www.unsaac.edu.pe/" target="_blank" style="text-decoration: none; color: inherit;"><strong>Universidad Nacional San Antonio Abad del Cusco (UNSAAC)</strong></a> es un centro de investigación y desarrollo enfocado en la creación de soluciones 
-    innovadoras que aborden los desafíos globales en energía renovable, comunicaciones ópticas y tecnología medioambiental.
-  </p>
-</section>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
 
-<section id="mission">
-  <h2>Objetivos del Laboratorio</h2>
-  <p>
-    El principal objetivo del centro es el desarrollo de soluciones innovadoras en los campos de la energía renovable, las comunicaciones ópticas y la tecnología 
-    medioambiental, promoviendo la investigación de vanguardia y la formación académica especializada en ingeniería.
-  </p>
-  <p>
-    El laboratorio contribuye activamente a la formación académica y profesional de futuros ingenieros en sus respectivas áreas de investigación.
-  </p>
-</section>
+  h2 {
+    color: #004080;
+    margin-top: 0;
+  }
 
-<section id="research-areas">
-  <h2>Áreas de Investigación</h2>
-  <ul>
-    <li>Ingeniería de Software</li>
-    <li>Redes y Comunicaciones</li>
-    <li>Internet de las Cosas (IoT)</li>
-    <li>Robótica y Automatización</li>
-    <li>Tecnología Satelital</li>
-    <li>Energías Renovables</li>
-  </ul>
-</section>
+  a {
+    color: #004080;
+  }
 
-<section id="collaboration">
-  <h2>Colaboraciones</h2>
-  <p>
-    El Laboratorio TESLA colabora con diversas universidades, empresas e instituciones a nivel nacional e internacional, con el fin de fomentar el intercambio de 
-    conocimientos y potenciar los resultados de las investigaciones.
-  </p>
-</section>
+  a:hover {
+    text-decoration: underline;
+  }
 
-<section id="projects">
-  <h2>Proyectos Actuales</h2>
-  <p>
-    Actualmente, el laboratorio TESLA se encuentra trabajando en una serie de proyectos de investigación de vanguardia que abordan áreas clave como:
-  </p>
-  <ul>
-    <li>Desarrollo de tecnologías sostenibles de energía renovable</li>
-    <li>Optimización de comunicaciones ópticas</li>
-    <li>Avances en sistemas de IoT</li>
-    <li>Diseño de soluciones innovadoras en robótica y automatización</li>
-  </ul>
-</section>
+  /* Estructura general */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
 
-<section id="company-info">
-  <h2>Información del Laboratorio</h2>
-  <p><strong>Sitio web:</strong> <a href="https://li.unsaac.edu.pe/" target="_blank">https://li.unsaac.edu.pe/</a></p>
-  <p><strong>Sector:</strong> Servicios de investigación</p>
-  <p><strong>Tamaño de la empresa:</strong> 2-10 empleados</p>
-  <p><strong>Sede:</strong> Cusco, Cusco</p>
-  <p><strong>Fundación:</strong> 2024</p>
-  <p><strong>Especialidades:</strong> Ingeniería de Software, Redes y Comunicaciones, Internet de las Cosas (IoT), Robótica y Automatización, Tecnología Satelital y Energías Renovables</p>
-</section>
+  /* Columna izquierda (sidebar) */
+  .sidebar {
+    flex: 1 1 280px;
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .sidebar img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .sidebar a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+
+  /* Columna derecha (contenido principal) */
+  .content {
+    flex: 3 1 600px;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  }
+
+  /* Título principal */
+  .content h2:first-of-type {
+    color: white;
+    font-weight: bold;
+    background-color: #004080;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  /* Listas */
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+
+</style>
+
+<div class="main">
+  <!-- Columna izquierda -->
+  <div class="sidebar">
+    <img src="assets/LaboratoryTESLA.jpg" alt="Edison Moreno-Cardenas">
+    <p><strong>Professional School of Electronic Engineering</strong></p>
+    <p>Faculty of Electrical, Electronic, Computer and Mechanical Engineering</p>
+    <p>San Antonio Abad National University of Cusco</p>
+    <p>
+      <a href="https://scholar.google.com/citations?user=rDskVUYAAAAJ&hl=es&oi=ao" target="_blank">Google Scholar</a> |
+      <a href="https://www.linkedin.com/in/edisonmorenocardenas/" target="_blank">LinkedIn</a> |
+      <a href="https://www.webofscience.com/wos/author/record/AET-6559-2022" target="_blank">WoS</a> |
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=58781792800" target="_blank">Scopus</a> |
+      <a href="https://orcid.org/0000-0001-9545-4694" target="_blank">ORCID</a>
+    </p>
+  </div>
+
+  <!-- Columna derecha -->
+  <div class="content">
+    <section id="home">
+      <h2>Bienvenido al Laboratorio TESLA - UNSAAC</h2>
+      <p>
+        El Laboratorio <strong>TESLA</strong> (Tecnología en Energías Renovables, Ingeniería de Comunicaciones Ópticas y Tecnología Medioambiental) de la 
+        <a href="https://www.unsaac.edu.pe/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">
+          Universidad Nacional San Antonio Abad del Cusco (UNSAAC)
+        </a> 
+        es un centro de investigación y desarrollo enfocado en la creación de soluciones 
+        innovadoras que aborden los desafíos globales en energía renovable, comunicaciones ópticas y tecnología medioambiental.
+      </p>
+    </section>
+
+    <section id="mission">
+      <h2>Objetivos del Laboratorio</h2>
+      <p>
+        El principal objetivo del centro es el desarrollo de soluciones innovadoras en los campos de la energía renovable, las comunicaciones ópticas y la tecnología 
+        medioambiental, promoviendo la investigación de vanguardia y la formación académica especializada en ingeniería.
+      </p>
+      <p>
+        El laboratorio contribuye activamente a la formación académica y profesional de futuros ingenieros en sus respectivas áreas de investigación.
+      </p>
+    </section>
+
+    <section id="research-areas">
+      <h2>Áreas de Investigación</h2>
+      <ul>
+        <li>Ingeniería de Software</li>
+        <li>Redes y Comunicaciones</li>
+        <li>Internet de las Cosas (IoT)</li>
+        <li>Robótica y Automatización</li>
+        <li>Tecnología Satelital</li>
+        <li>Energías Renovables</li>
+      </ul>
+    </section>
+
+    <section id="collaboration">
+      <h2>Colaboraciones</h2>
+      <p>
+        El Laboratorio TESLA colabora con diversas universidades, empresas e instituciones a nivel nacional e internacional, con el fin de fomentar el intercambio de 
+        conocimientos y potenciar los resultados de las investigaciones.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos Actuales</h2>
+      <p>
+        Actualmente, el laboratorio TESLA se encuentra trabajando en una serie de proyectos de investigación de vanguardia que abordan áreas clave como:
+      </p>
+      <ul>
+        <li>Desarrollo de tecnologías sostenibles de energía renovable</li>
+        <li>Optimización de comunicaciones ópticas</li>
+        <li>Avances en sistemas de IoT</li>
+        <li>Diseño de soluciones innovadoras en robótica y automatización</li>
+      </ul>
+    </section>
+
+    <section id="company-info">
+      <h2>Información del Laboratorio</h2>
+      <p><strong>Sitio web:</strong> <a href="https://li.unsaac.edu.pe/" target="_blank">https://li.unsaac.edu.pe/</a></p>
+      <p><strong>Sector:</strong> Servicios de investigación</p>
+      <p><strong>Tamaño de la empresa:</strong> 2-10 empleados</p>
+      <p><strong>Sede:</strong> Cusco, Cusco</p>
+      <p><strong>Fundación:</strong> 2024</p>
+      <p><strong>Especialidades:</strong> Ingeniería de Software, Redes y Comunicaciones, Internet de las Cosas (IoT), Robótica y Automatización, Tecnología Satelital y Energías Renovables</p>
+    </section>
+  </div>
+</div>
