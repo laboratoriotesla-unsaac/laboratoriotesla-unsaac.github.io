@@ -4,5 +4,5 @@ description: >-
   Laboratorio de Tecnología en Energías Renovables, Ingeniería de Comunicaciones Ópticas y Tecnología Medioambiental de la UNSAAC.
 baseurl: "" # dejar vacío para repositorios tipo usuario.github.io
 url: "https://laboratoriotesla-unsaac.github.io"
-theme: minima # o el tema que uses
+theme: null
 markdown: kramdown
