@@ -148,3 +148,36 @@ body {
   }
 }
 
+
+/* === Publicaciones científicas === */
+#publications {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#publications h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.publication-list {
+  margin-left: 1.2em;
+}
+
+.publication-list li {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.publication-list a {
+  color: #004080;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.publication-list a:hover {
+  text-decoration: underline;
+}
