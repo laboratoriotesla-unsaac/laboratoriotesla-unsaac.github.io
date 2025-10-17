@@ -24,3 +24,28 @@ main {
 h1, h2 {
   color: #003366;
 }
+
+
+/* === Estilo del título principal del sitio === */
+header h1 a {
+  color: white;           /* texto blanco */
+  font-weight: bold;      /* en negrita */
+  text-decoration: none;  /* sin subrayado */
+}
+
+/* Cambia color al pasar el mouse */
+header h1 a:hover {
+  color: #ffcc00; /* opcional: color dorado al pasar el cursor */
+}
+
+/* === Estilo del enlace UNSAAC dentro del texto === */
+a.unsaac-link {
+  color: black;           /* texto negro */
+  font-weight: bold;      /* en negrita */
+  text-decoration: none;  /* sin subrayado */
+}
+
+a.unsaac-link:hover {
+  color: #b30000;         /* cambia a rojo oscuro al pasar el mouse */
+  text-decoration: underline; /* subrayado opcional al pasar el cursor */
+}
