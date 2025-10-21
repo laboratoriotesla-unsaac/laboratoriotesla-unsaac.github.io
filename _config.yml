@@ -5,4 +5,3 @@ description: >-
 baseurl: "" # dejar vacío para repositorios tipo usuario.github.io
 url: "https://laboratoriotesla-unsaac.github.io"
 markdown: kramdown
-theme: minima
